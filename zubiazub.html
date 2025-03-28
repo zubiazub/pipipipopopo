@@ -3,6 +3,7 @@
 <head> 
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
         *{
             margin: 0 ;
             padding: 0;
@@ -15,22 +16,43 @@
         }
         header{
             background-color: rgb(20, 236, 20);
-            border: 3px solid rgb(18, 218, 18);
+            border: rgb(255, 206, 214) solid;
             padding: 32px;
+            
         }
         body p{
             color: palegreen;
         }
         header div a {
-            color: antiquewhite;
+            color: white;
             font-size: 20px;
             line-height: 30px;
             margin: 0 16px;
             text-align: center;
             text-decoration: none;
+            font-family: "Gravitas One", serif;
+            transition: color 1000ms;
         }
+        header div a :hover { 
+            color: #f59aac;
+            font-size: 20px;
+            transition: color 1000ms
+    
+            
+        }
+
+        
+        
         header div {
             text-align: center;
+        }
+        .amarela{
+            background-color: #f5f595;
+            color: white;
+            width: 200px;
+            height: 50px;
+            border: #f5f595;
+            border-radius: 20%
         }
 
     </style>
@@ -38,17 +60,18 @@
     
     <title>Zubia Zub!</title>
 </head>
-       
+    
       
 <body> 
     <header>  
         <div>  
-            <a href="http://www.github.com/zubiazub">GitHub</a>
-            <a href="http://www.instagram.com/as.franca">Instagram</a>
+            <a href="http://www.github.com/zubiazub" target="_blank">GitHub</a>
+            <a href="http://www.instagram.com/as.franca" target="_blank">Instagram</a>
         </div>
     <p>alien girl</p>
+    <div class="amarela">zip zap zub</div>
     </header>
          
-    
+   
 </body>
 </html>
