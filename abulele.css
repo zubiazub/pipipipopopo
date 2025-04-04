@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+*{
+    margin: 0 ;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: rgb(255, 206, 214);
+    color: rgb(20, 236, 20);
+    
+}
+header{
+    background-color: rgb(20, 236, 20);
+    border: rgb(20, 236, 20) solid;
+    padding: 12px;
+    
+}
+body p{
+    color: palegreen;
+}
+header div a {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Gravitas One", serif;
+    transition: 800ms;
+}
+header div a:hover  { 
+    color: #ffc6d0;
+    font-size: 25px;
+    transition: color 800ms;
+}
+
+
+
+
+header div {
+    text-align: center;
+}
+.amarela{
+    background-color: #f5f595;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: #f5f595;
+    border-radius: 20%
+}
