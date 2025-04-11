@@ -1,28 +1,31 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
 *{
+
     margin: 0 ;
     padding: 0;
     border: 0;
 }
 body{
     background-color: rgb(255, 206, 214);
-    color: rgb(20, 236, 20);
+    color: rgb(254, 255, 254);
     
 }
 header{
-    background-color: rgb(20, 236, 20);
-    border: rgb(20, 236, 20) solid;
-    padding: 12px;
+    background-color: rgb(194, 255, 154);
+    border: rgb(149, 255, 149) solid;
+    padding: 6px;
     
 }
 body p{
-    color: palegreen;
+    color: #ffffff;
 }
 header div a {
     color: white;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 10px;
     margin: 16px;
     text-align: center;
     text-decoration: none;
@@ -42,10 +45,51 @@ header div {
     text-align: center;
 }
 .amarela{
-    background-color: #f5f595;
-    color: white;
+    background-color: #ffffff;
+    color: #ffc6d0;
     width: 200px;
     height: 50px;
     border: #f5f595;
     border-radius: 20%
 }
+
+#box {
+    text-align: center;
+    padding: 32px;
+}
+        crimson-text-regular {
+        font-family: "Crimson Text", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+#box img {
+    border-radius: 50%;
+    border: 5px solid palegreen;
+    margin-bottom: 32px;
+}
+
+#box h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#box h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 3px;
+    opacity: 0.8;
+}
+
+#box p{
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 24px;
+    line-height: 34px;
+}
+#box a{
+    text-decoration: none;
+}
+
