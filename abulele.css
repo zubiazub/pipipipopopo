@@ -28,7 +28,7 @@ header div a {
     line-height: 10px;
     margin: 16px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none ;
     font-family: "Gravitas One", serif;
     transition: 500ms;
 }
