@@ -9,13 +9,13 @@
     border: 0;
 }
 body{
-    background-color: rgb(255, 206, 214);
-    color: rgb(254, 255, 254);
+    background-color: #ffc0cb;
+    color: #fefffe;
     
 }
 header{
-    background-color: rgb(194, 255, 154);
-    border: rgb(149, 255, 149) solid;
+    background-color: #c2ff9a;
+    border: #95ff95 solid;
     padding: 6px;
     
 }
@@ -23,19 +23,19 @@ body p{
     color: #ffffff;
 }
 header div a {
-    color: white;
+    color: #ffffff;
     font-size: 20px;
     line-height: 10px;
     margin: 16px;
     text-align: center;
     text-decoration: none;
     font-family: "Gravitas One", serif;
-    transition: 800ms;
+    transition: 500ms;
 }
 header div a:hover  { 
     color: #ffc6d0;
     font-size: 25px;
-    transition: color 800ms;
+    transition: color 500ms;
 }
 
 
@@ -65,7 +65,7 @@ header div {
 
 #box img {
     border-radius: 50%;
-    border: 5px solid palegreen;
+    border: 5px solid #b6fb98;
     margin-bottom: 32px;
 }
 
